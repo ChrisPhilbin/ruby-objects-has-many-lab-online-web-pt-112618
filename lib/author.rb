@@ -13,6 +13,7 @@ class Author
 
   def add_post(post)
     post.author = self
+    @posts << self
   end
 
   def add_post_by_title(title)
