@@ -9,7 +9,7 @@ class Author
     @@all << self
   end
 
-  def posts
+  def self.all
     @@all
   end
 
